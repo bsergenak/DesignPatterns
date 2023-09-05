@@ -1,0 +1,33 @@
+﻿@model DesignPattern.CQRS.CQRSPattern.Results.GetProductUpdateQueryResult
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<div class="container">
+    <br />
+    <form method="post">
+        <label>Urun ID</label>
+        <input type="text" class="form-control" asp-for="ProductID" />
+        <br />
+
+        <label>Urun adi</label>
+        <input type="text" class="form-control" asp-for="Name" />
+        <br />
+
+        <label>Urun Stok</label>
+        <input type="text" class="form-control" asp-for="Stock" />
+        <br />
+
+        <label>Urun Fiyat</label>
+        <input type="text" class="form-control" asp-for="Price" />
+        <br />
+
+        <label>Urun Aciklama</label>
+        <input type="text" class="form-control" asp-for="Description" />
+        <br />
+
+        <button class="btn btn-success">Urunu Guncelle</button>
+
+    </form>
+</div>
+
