@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSDesignPattern", "CQRSDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{795B8355-103D-44BF-83D9-0383DC64EE29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethodDesignPattern", "TemplateMethodDesignPattern", "{EAE8FCCE-D2D3-438E-8F63-AE26DA85F8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.TemplateMethod", "TemplateMethodDesignPattern\DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{EA9227A9-C78D-402B-BF5A-03E4CF74BA23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{795B8355-103D-44BF-83D9-0383DC64EE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{795B8355-103D-44BF-83D9-0383DC64EE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{795B8355-103D-44BF-83D9-0383DC64EE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9227A9-C78D-402B-BF5A-03E4CF74BA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9227A9-C78D-402B-BF5A-03E4CF74BA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9227A9-C78D-402B-BF5A-03E4CF74BA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9227A9-C78D-402B-BF5A-03E4CF74BA23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D4F1C2A3-CEDD-4192-8C34-DD8354FCF373} = {CCEA2141-B1C7-4221-B5C1-F6726AADFB90}
 		{795B8355-103D-44BF-83D9-0383DC64EE29} = {6B807545-C95E-43B2-A552-89D0591C32A3}
+		{EA9227A9-C78D-402B-BF5A-03E4CF74BA23} = {EAE8FCCE-D2D3-438E-8F63-AE26DA85F8DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {822B76FB-7AB2-431E-BF2B-100105E390E1}
