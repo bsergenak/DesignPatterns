@@ -45,7 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Composite", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorDesignPattern", "MediatorDesignPattern", "{0AC12C13-5FC3-4D23-88C0-D420BD70EF34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Mediator", "MediatorDesignPattern\DesignPattern.Mediator\DesignPattern.Mediator.csproj", "{13565C43-33EC-4F56-8CD3-705F2074B36E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Mediator", "MediatorDesignPattern\DesignPattern.Mediator\DesignPattern.Mediator.csproj", "{13565C43-33EC-4F56-8CD3-705F2074B36E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IteratorDesignPattern", "IteratorDesignPattern", "{63EEBED0-6CD3-40F9-B523-6285AF99833B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Iterator", "IteratorDesignPattern\DesignPattern.Iterator\DesignPattern.Iterator.csproj", "{CE64B853-A10A-48A4-8E54-49E01C9B7ED4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +113,10 @@ Global
 		{13565C43-33EC-4F56-8CD3-705F2074B36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13565C43-33EC-4F56-8CD3-705F2074B36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13565C43-33EC-4F56-8CD3-705F2074B36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE64B853-A10A-48A4-8E54-49E01C9B7ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE64B853-A10A-48A4-8E54-49E01C9B7ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE64B853-A10A-48A4-8E54-49E01C9B7ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE64B853-A10A-48A4-8E54-49E01C9B7ED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +136,7 @@ Global
 		{8B8CE94A-7EBF-4C1E-9271-DF6E335898FD} = {4B348AEB-578A-40BF-968E-B4370370DE36}
 		{0435FDE9-9306-49F6-9328-629A8F97D233} = {96A7AE07-15CB-49F4-96C6-983FBBF40934}
 		{13565C43-33EC-4F56-8CD3-705F2074B36E} = {0AC12C13-5FC3-4D23-88C0-D420BD70EF34}
+		{CE64B853-A10A-48A4-8E54-49E01C9B7ED4} = {63EEBED0-6CD3-40F9-B523-6285AF99833B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {822B76FB-7AB2-431E-BF2B-100105E390E1}
